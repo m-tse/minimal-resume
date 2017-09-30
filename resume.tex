@@ -1,0 +1,101 @@
+
+\documentclass[a4paper]{article} 
+\renewcommand{\thesection}{}
+\renewcommand{\thesubsection}{}
+\renewcommand{\thesubsubsection}{}
+
+\usepackage[cm, empty]{fullpage}  % for nice tight around edge margins, cm set it to 1.5 cm margins, empty removes the header and footer
+
+\usepackage{hyperref}
+\hypersetup{urlcolor=blue,colorlinks=true} 
+\urlstyle{same} % turns off monospace font for url links
+
+\usepackage{enumitem}
+\setlist[itemize,1]{topsep=2pt, itemsep=-2pt}
+\setlist[itemize,2]{leftmargin=1pc, topsep=-3pt, itemsep=-2pt}
+
+\usepackage{titlesec}
+\titlespacing*{\section}{0em}{0ex}{0ex} % the * kills the indentation after this section
+\titlespacing{\subsection}{-1em}{-0.8ex}{0ex}
+\titlespacing{\subsubsection}{0em}{0ex}{0pt}
+\titleformat{\section}
+  [block]{\large\bfseries}{\thesection}{0em}{}
+
+\begin{document}
+
+\begin{center}
+{\LARGE\textbf{John Doe}} \\
+\href{mailto:john.doe@gmail.com}{john.doe@gmail.com}
+-- (999) 999-9999 \\
+Blog at \url{http://johndoe.com/} -- GitHub at \url {http://github.com/johndoe}  -- Twitter at \href{https://twitter.com/JohnDoe}{@JohnDoe} \\
+Mailing Address: 999 Pleasant Street, Kansas City, KS 93424 \\
+\hrulefill
+\end{center}
+
+\section{\centerline{EDUCATION}}
+\subsection{Kansas University, \textnormal{Kansas City, KS}}
+\subsubsection{Bachelor of Science in Computer Science \hfill September 2010 - May 2014}
+\begin{itemize}
+  \item Cumulative GPA: 3.511
+  \item Coursework: Math, Physics, Chemistry, Biology, Spanish, History, English
+\end{itemize}
+
+\subsubsection{Undergraduate Teaching Assistant}
+\begin{itemize}
+  \item ES100 - English 101 \hfill\textbf{Fall 2012}
+  \item ES200 - English 201 \hfill\textbf{Spring 2012}
+\end{itemize}
+
+\section{\centerline{PROFESSIONAL EXPERIENCE}}
+\subsection{Company A, \textnormal{Kansas City, KS}}
+\subsubsection{Marketer \hfill November 2015 - Present}
+  \begin{itemize}
+    \item Cras interdum felis quis laoreet elementum. Maecenas hendrerit nunc arcu, non congue nisi feugiat
+    \item Praesent euismod, dolor quis posuere auctor, augue libero vestibulum risus, nec pharetra lacus massa quis nulla.
+    \item Maecenas vitae dictum nunc, eu tincidunt ligula. Nam a hendrerit felis, at lacinia neque. Integer 
+    \item Mauris quis dui ex. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi erat neque, porttitor
+  \end{itemize}
+
+\subsection{Company B, \textnormal{Kansas City, KS}}
+\subsubsection{Sales \hfill June 2013 - November 2015}
+  \begin{itemize}
+    \item Ut elit ante, eleifend a congue ornare, ullamcorper sit amet sapien. Ut dignissim nibh vel turpis aliquet, ac pulvinar enim sodales. Maecenas dui purus, tempor eu sagittis volutpat, mollis vitae tellus
+    \item Mauris urna justo, molestie in elementum quis, scelerisque quis risus. Nulla vitae nulla non erat fermentum pretium
+    \item Cras mattis lorem metus, quis tristique urna convallis quis. Morbi neque dui, tincidunt ut interdum quis, dignissim in sem.
+    \item Proin finibus dictum augue at porta. In hac habitasse platea dictumst.
+
+
+  \end{itemize}
+
+\subsection{Company C, \textnormal{New York, NY}}
+\subsubsection{Software Engineer Intern \hfill Summer 2013}
+ \begin{itemize}
+    \item Ut a nisi aliquam, suscipit velit eu, convallis eros. Duis et nisl malesuada, imperdiet ante ullamcorper, venenatis ipsum. Fusce egestas arcu quis sem malesuada, ut accumsan nisl tristique
+    \item Integer scelerisque sed purus vitae dapibus. Sed convallis id nulla et cursus. Nulla consequat ex
+    \item Ut dignissim nibh vel turpis aliquet, ac pulvinar enim sodales. 
+    \item Cras mattis lorem metus, quis tristique urna convallis quis. Morbi neque dui, tincidunt ut interdum quis, dignissim in sem.
+ \end{itemize}
+
+\section{\centerline{PROJECTS}}
+\subsection{Open Source}
+\begin{itemize}
+    \item Etiam ut egestas urna. Etiam lobortis, magna quis ornare congue, nibh quam tempor elit, vitae finibus orci elit eu nisl.
+    \item Ut a nisi aliquam, suscipit velit eu, convallis eros. Duis et nisl malesuada, imperdiet ante ullamcorper, venenatis ipsum. Fusce egestas arcu quis sem malesuada
+    \item Ut dignissim nibh vel turpis aliquet, ac pulvinar enim sodales. 
+\end{itemize}
+
+\subsection{Personal Projects}
+\begin{itemize}
+    \item Donec hendrerit quam quis nulla pretium dictum. Mauris placerat augue tellus, et condimentum lacus aliquam in.
+    \item Nunc id diam ut leo imperdiet commodo at et magna. Nulla sit amet maximus leo, non euismod purus.
+    \item Aliquam eget nunc vestibulum, laoreet risus nec, commodo eros. In pulvinar, lorem vel finibus iaculis, nisi ante dictum 
+\end{itemize}
+
+\subsection{Coursework Projects} 
+\begin{itemize}
+    \item Ut imperdiet magna non lacus scelerisque, ac varius arcu pretium. Nulla rutrum neque ac erat aliquam, sed egestas sem finibus. 
+    \item Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse consectetur sagittis sollicitudin. 
+    \item Ut a nisi aliquam, suscipit velit eu, convallis eros. Duis et nisl malesuada, imperdiet ante ullamcorper, venenatis ipsum. Fusce egestas arcu quis sem malesuada, ut accumsan nisl tristique
+\end{itemize}
+
+\end{document}
