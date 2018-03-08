@@ -4,19 +4,21 @@
 \renewcommand{\thesubsection}{}
 \renewcommand{\thesubsubsection}{}
 
-\usepackage[cm, empty]{fullpage}  % for nice tight around edge margins, cm set it to 1.5 cm margins, empty removes the header and footer
+\usepackage[cm, empty]{fullpage}  % cm sets it to 1.5 cm margins, empty removes the header and footer
 
 \usepackage{hyperref}
-\hypersetup{urlcolor=blue,colorlinks=true} 
+\hypersetup{urlcolor=blue,colorlinks=true}
 \urlstyle{same} % turns off monospace font for url links
 
 \usepackage{enumitem}
 \setlist[itemize,1]{topsep=2pt, itemsep=-2pt}
 \setlist[itemize,2]{leftmargin=1pc, topsep=-3pt, itemsep=-2pt}
 
+\renewcommand\labelitemi{$-$} % use math minus symbols for list items
+
 \usepackage{titlesec}
-\titlespacing{\section}{0em}{0.5em}{0.5em}
-\titlespacing{\subsection}{-1.5em}{0.5em}{0em}
+\titlespacing{\section}{0em}{0.5em}{0.3em}
+\titlespacing{\subsection}{-1.5em}{0.5em}{0.1em}
 \titlespacing{\subsubsection}{0em}{0em}{0em}
 \titleformat{\section}
   [block]{\large\bfseries}{\thesection}{0em}{}
